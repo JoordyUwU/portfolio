@@ -1,13 +1,9 @@
-/* haut de page */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 header {
     background-color: #373737;
     margin: -28px -8px 0 -8px;
     height: 100px;
 }
-
-
-/* Boutons de navigation */
 
 nav {
     overflow: hidden;
@@ -36,31 +32,4 @@ a:hover {
     border-bottom: 1px solid;
     background: #cdfeaa;
     color: black;
-}
-
-
-/* body */
-
-body {
-    color: white;
-    background-image: url(../assets/images/wp.gif);
-    background-size: cover;
-}
-
-
-
-/* bas de page */
-
-footer {
-    margin-top: 18px;
-    background-color: #373737;
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
-    font-size: 18px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    height: 40px;
 }
