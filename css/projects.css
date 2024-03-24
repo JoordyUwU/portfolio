@@ -43,7 +43,40 @@ a:hover {
 
 body {
     color: white;
+    background-color: #48633ad2;
+}
+
+section#projects {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#projects a {
+    padding: 25px;
+    text-decoration: none;
+    color: #bae498;
     background-color: #373737;
+}
+
+section#projects a:focus {
+    border-bottom: 1px solid;
+    background: #bae498;
+    color: black;
+  }
+
+section#projects a:hover {
+    border-bottom: 1px solid;
+    background: #cdfeaa;
+    color: black;
 }
 
 
